@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116222282741CCA800A53913 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 116222272741CCA800A53913 /* SleepCalculator.mlmodel */; };
 		11D7EAFB27401F4800EEAF86 /* SwiftUI_BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7EAFA27401F4800EEAF86 /* SwiftUI_BetterRestApp.swift */; };
 		11D7EAFD27401F4800EEAF86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D7EAFC27401F4800EEAF86 /* ContentView.swift */; };
 		11D7EAFF27401F4800EEAF86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D7EAFE27401F4800EEAF86 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116222272741CCA800A53913 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		11D7EAF727401F4800EEAF86 /* SwiftUI-BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-BetterRest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D7EAFA27401F4800EEAF86 /* SwiftUI_BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BetterRestApp.swift; sourceTree = "<group>"; };
 		11D7EAFC27401F4800EEAF86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				11D7EAFA27401F4800EEAF86 /* SwiftUI_BetterRestApp.swift */,
 				11D7EAFC27401F4800EEAF86 /* ContentView.swift */,
+				116222272741CCA800A53913 /* SleepCalculator.mlmodel */,
 				11D7EAFE27401F4800EEAF86 /* Assets.xcassets */,
 				11D7EB0027401F4800EEAF86 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116222282741CCA800A53913 /* SleepCalculator.mlmodel in Sources */,
 				11D7EAFD27401F4800EEAF86 /* ContentView.swift in Sources */,
 				11D7EAFB27401F4800EEAF86 /* SwiftUI_BetterRestApp.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
